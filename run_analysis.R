@@ -3,6 +3,9 @@
 
 
 data_file <- "getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+
+
+
 if (!file.exists(data_file)) {
 
   download.file("http://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip", data_file)
